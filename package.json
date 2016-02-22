@@ -1,8 +1,8 @@
 {
   "name": "jspm-handlebars",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "A plugin to load handlebars templates using JSPM / SystemJS.",
-  "main": "index.js",
+  "main": "hbs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,6 @@
     "jspm": "^0.16.29"
   },
   "jspm": {
-    "main": "handlebars",
-    "directories": {},
     "dependencies": {
       "handlebars": "github:components/handlebars.js@^4.0.5",
       "text": "github:systemjs/plugin-text@^0.0.4"
