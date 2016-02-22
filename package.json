@@ -20,6 +20,8 @@
     "jspm": "^0.16.29"
   },
   "jspm": {
+    "main": "handlebars",
+    "directories": {},
     "dependencies": {
       "handlebars": "github:components/handlebars.js@^4.0.5",
       "text": "github:systemjs/plugin-text@^0.0.4"
