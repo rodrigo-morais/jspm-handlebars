@@ -1,18 +1,18 @@
 {
   "name": "jspm-handlebars",
   "main": "hbs.js",
-  "version": "v0.0.8",
+  "version": "v0.0.9",
   "repository": {
-        "type": "git",
-        "url": "git://github.com/rodrigo-morais/jspm-handlebars.git"
-    },
-    "author": "Rodrigo Morais <morais.rm@gmail.com>",
-    "keywords": [
-        "jspm",
-        "handlebars"
-    ],
-    "license": "MIT",
-    "homepage": "https://github.com/rodrigo-morais/jspm-handlebars.git",
+    "type": "git",
+    "url": "git://github.com/rodrigo-morais/jspm-handlebars.git"
+  },
+  "author": "Rodrigo Morais <morais.rm@gmail.com>",
+  "keywords": [
+    "jspm",
+    "handlebars"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rodrigo-morais/jspm-handlebars.git",
   "jspm": {
     "dependencies": {
       "handlebars": "github:components/handlebars.js@^4.0.5",
