@@ -1,8 +1,8 @@
 'use strict'
 
-var handlebars = require('handlebars');
+exports.translate = function (file) {
+	var handlebars = require('handlebars'),
+			template = handlebars.compile(file.source);
 
-export function translate(source) {
-	var template = handlebars.compile(require(source + "!text"));
 	return template();
 }
